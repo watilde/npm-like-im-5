@@ -1,35 +1,35 @@
-# What is npm?
+# npmとは何か？
 
-npm is the package manager for JavaScript. It has two
-primary goals:
+npmとは、JavaScriptのためのパッケージマネジャーです。
+2つの主要なゴールが存在します：
 
-- put code in a place where it can easily be used
-- manage differences in dependency versions
+- コードを簡単に利用できる場所に配置する
+- 異なるバージョンの依存しているパッケージを管理する
 
-npm accomplishes this by managing 3 primary products:
+npmは、3つの主要なプロダクトを以て達成しようとしています：
 
-- the CLI
-- the registry
-- the website
+- コマンド
+- レジストリ
+- ウェブサイト
 
-## The CLI
+## コマンド
 
-npm's CLI, or Command Line Interface, is an installed program that allows
-users to interact with a registry via their terminal. This is by far the most well-known and used npm product.
+npmのコマンドは、ターミナルでレジストリと会話を行うためのプログラムです。
+これは、今のところ最も知られているnpmのプロダクトとなります。
 
-## The Registry
+## レジストリ
 
-npm's registry is, arguably, the most valuable asset that npm has.
-The registry is a database (actually serveral databases!) that contains
-all package data and meta-data.
+npmのレジストリは、npmが持っている最も貴重な資産です。レジストリとは、
+全てのパッケージのデータと、そのメタデータを含む
+データベース(実際は複数のデータベース！)のことを指します。
 
-When one types `npm install` (among other things!) a request is made to
-the registry. 
+`npm install` (他のコマンドも！)を実行した際には、npmの
+レジストリへのリクエストが生成されます。
 
-It is possible to use the npm CLI with *any* registry. The npm registry
-is simply the default.
+実際は、npmコマンドは *どのような* レジストリとも使うことができます。
+npmレジストリは、単にデフォルトの設定であるということです。
 
-### npm Onsite
+### npm OnSite
 
 npm OnSite is a paid product by which npm provides customers
 with a fully replicated version of the public registry for use
